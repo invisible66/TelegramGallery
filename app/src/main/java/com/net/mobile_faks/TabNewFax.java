@@ -177,7 +177,7 @@ public class TabNewFax extends Fragment {
                     properties.extensions = exts;
                 } else
                     properties.extensions = null;
-
+//---
                 dialog = new FilePickerDialog(this.getActivity(), properties);
                 dialog.setTitle(getResources().getString(R.string.pleasePickFile));
 
